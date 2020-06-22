@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, aside, section, figure, footer{
+    display: block;
+}
+
+body{
+    width: 760px;
+    height: auto;
+    background: white;
+    margin: 0 auto;
+}
+
+header{
+    width: 760px;
+    height: 120px;
+    background-color: maroon;
+}
+
+nav{
+    width: 760px;
+    height: 35px;
+    margin: 10px 0;
+    background: yellow;
+}
+
+main{
+    width: 760px;
+    height: auto;
+    margin-bottom: 11px;
+    background: green;
+}
+
+aside{
+    width: 160px;
+    height: 217px;
+    margin-right: 20px;
+    float: left;
+    background: blue;
+}
+
+section{
+    width: 580px;
+    height: auto;
+    float: left;
+    background: black;
+}
+
+figure#banner1{
+    width: 580px;
+    height: 216px;
+    margin-bottom: 11px;
+    float: left;
+    background: green;
+}
+
+figure#banner2{
+    width: 280px;
+    height: 148px;
+    margin-right: 20px;
+    float: left;
+    background: green;
+}
+
+figure#banner3{
+    width: 280px;
+    height: 148px;
+    float: left;
+    background: orange;
+}
+
+footer{
+    width: 760px;
+    height: 35;
+    float: left;
+    margin-top: 20px;
+    background: purple;
+}
+
+

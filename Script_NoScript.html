@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <title>Etiqueta script y noscript</title>
+    </head>
+    <body>
+        <p onmouseover="cambiarAItalica(this)" onmouseout="changeANormal(this)">Este es un ejemplo de script</p>
+        <script>
+
+            function cambiarAItalica(element) {
+            element.style.fontStyle='italic';
+            }
+
+            function changeANormal(element) {
+            element.style.fontStyle='normal';
+            }
+        </script>
+        <noscript>Este es un noscript</noscript>
+    </body>
+</html>
